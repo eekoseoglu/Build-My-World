@@ -7,4 +7,4 @@ list(APPEND CMAKE_CXX_FLAGS "${GAZEBO_CXX_FLAGS}")
 
 add_library(hello SHARED script/hello.cpp)
 target_link_libraries(hello ${GAZEBO_LIBRARIES})
- 
+  
